@@ -12,6 +12,7 @@ struct ID_EX {
     Instruction instr;
     int readData1 = 0;
     int readData2 = 0;
+    int immediate = 0;   // ✅ FIX
     bool valid = false;
 };
 
